@@ -8,14 +8,44 @@
 <body>
     <form>
         <p>Имя пользователя</p>
-        <input type="text" name="" value="">
+        <input type="text" name="name" value="">
         <p>Почта пользователя</p>
-        <input type="email" name="" value="">
+        <input type="email" name="email" value="">
         <p>Пароль пользователя</p>
-        <input type="password" name="" value="">
+        <input type="password" name="password" value="">
         <p>Число</p>
-        <input type="number" name="" value="">
+        <input type="number" name="number" value="">
         <button type="submit">Отправка на сервер</button>
     </form>
+
+
+    <form>
+        <h2>Выбор сеанса</h2>
+        <p>Кинотеатр:</p>
+        <input type="text" name="cinema" placeholder="Введите название кинотеатра" required>
+        <p>Фильм:</p>
+        <input type="text" name="film" placeholder="Введите фильм">
+        <p>Время:</p>
+        <input type="time" name="time">
+        <p>Стоимость:</p>
+        <input type="number" name="cost" placeholder="Введите стоимость">
+
+        <button type="submit">Отправить данные</button>
+    </form>
+    
+
+    <form>
+        <h1>Какой ваш любимый цвет</h1>
+        
+        <label><input type="radio" name="color" value="yellow" >Жёлтый</label><br>
+        <label><input type="radio" name="color" value="red" checked>Красный</label><br>
+        <label><input type="radio" name="color" value="blue" disabled>Синий</label><br>
+
+        <button type="submit">Отправить на сервер</button>
+    </form>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>
